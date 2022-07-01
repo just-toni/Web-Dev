@@ -1,0 +1,66 @@
+body{
+    background-color: yellow;
+}
+
+h1{
+    font-size: 24pt;
+}
+
+h2{
+    font-size: 18pt;
+    font-weight:bold;
+    color: red;
+}
+
+p{
+    margin: 5px 0  10px 0;
+    font-weight: 400;
+    font-family: cursive;
+}
+
+.first{
+    font-style: italic;
+    color: magenta;
+}
+
+.next{
+    font-style: unset;
+    color:chocolate;
+    font-stretch: wider;
+}
+
+#latestComment{
+    font-style: italic;
+    color: violet;
+}
+
+[title]{
+    cursor: help;
+    padding-bottom: 3px;
+    border-bottom: 2px dotted blueviolet;
+    text-decoration: burlywood;
+}
+
+a:link{
+    text-decoration: underline;
+    color:coral;
+}
+
+a:visited{
+    text-decoration: underline;
+    color:purple;
+}
+
+a:hover{
+    text-decoration: underline;
+    color:plum;
+}
+
+a:active{
+    text-decoration: underline;
+    color: honeydew;
+}
+
+table, th, td{
+    border: 3px ivory outset;
+}
