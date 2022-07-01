@@ -1,0 +1,114 @@
+figure{
+    width: 200px;
+    float: left;
+    background-color: #ededed;
+    /* border: yellow, solid 2px; */
+}
+
+.first{
+    clear: left;
+}
+
+article{
+    background-color: white;
+}
+
+/* overlayed{
+    position:absolute;
+    top: 10px;
+    left: 10px;
+} */
+
+.overlayed{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    /* display: none; */
+}
+
+.hide{
+    display: none;
+}
+
+.img{
+    width: 100px;
+    position: absolute;
+    bottom: 220px;
+    left:125px;
+}
+
+.img2{
+    position: relative;
+}
+
+.figure1{
+    display: auto;
+}
+
+.figure2{
+    display: none;
+}
+
+.figure3{
+    display: none;
+}
+
+figcaption.popup{
+    padding: 10px;
+    background: #e1e1e1;
+    position: absolute;
+    box-shadow: 0 0 15px #a9a9a9;
+    visibility: hidden;
+}
+
+figure.thumbnail:hover figcaption.popup{
+    position: absolute;
+    top:50%;
+    left: 70%;
+    visibility: visible;
+}
+
+/* .img{
+    position: absolute;
+    width: 100px;
+    top: 300px;
+    left: 10px;
+} */
+
+header{
+    font-size: 3cm;
+}
+
+nav{
+    float: left;
+    width: 8cm;
+    color: darkorange;
+    background-color: darkslategrey;
+    font-size: 20px;
+}
+
+.h2{
+    text-indent: 5%;
+}
+
+.div_margin{
+    margin-left: 9cm;  
+    background-color: brown;
+    float: right;   
+    margin-top: -350px;
+    margin-right: 9cm;
+}   
+
+.article_margin{
+    margin-left: 9cm;  
+    float: right;
+    margin-right: 9cm;
+}
+
+.earrings_figure{
+    size: 5%;
+}
+
+.last_div{
+    float: right;
+}

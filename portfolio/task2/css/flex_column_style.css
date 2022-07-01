@@ -1,0 +1,23 @@
+.media{
+    display: flex;
+    align-items: flex-start;
+}
+
+.media-image{
+    margin-right: 1cm;
+}
+
+.media-body{
+    background-color: darkseagreen;
+}
+
+.image2{
+    width: 10cm;
+    height: 10cm;
+}
+
+.image{
+    display: flex;
+    align-items: flex-end;
+    margin-right: -1.1cm;
+}

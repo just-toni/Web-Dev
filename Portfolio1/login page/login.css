@@ -1,0 +1,11 @@
+.main{
+    margin: auto;
+    width: 45%;
+}
+
+.first_heading{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-display:initial;
+}
